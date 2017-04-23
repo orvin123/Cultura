@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Mario";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("Super Mario Bros..ttf") ;
+}
+
+
+
+header{
+	/*background-color: #293e8d;*/
+	font-family: Mario;
+	/*padding: 1.5em;*/
+	color: white;
+	width:100%;
+	left: 0; 
+	top: 0;
+	text-align: center;
+	/*position: fixed;*/
+	height:80px
+	
+}
+
+
+
+article{
+
+	
+	width: 90%;
+	max-width: 2000px;
+}
+
+
+
+button{
+
+	background: none;
+	border: none;
+
+}
+
+footer{
+	
+	color: black;
+	width:100%;
+	left: 0; 
+	top: 0;
+	bottom: 0;
+}
+div {
+
+	border-top-color: black;
+}
+
+
+
+
+body {
+	/*background-color: #c7c9d0;*/
+	background-image: url(fondo.jpg);
+
+	/*padding-top: 120px;*/
+}
